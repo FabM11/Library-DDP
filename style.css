@@ -1,0 +1,19 @@
+body{
+    display:grid;
+    grid-template-areas:
+    'header header' 
+    'Logo .'
+    'Conteudo Conteudo';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+main{
+    grid-area: Conteudo;
+}
+figure{
+    grid-area: Logo;
+}
