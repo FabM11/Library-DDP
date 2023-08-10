@@ -1,4 +1,6 @@
 body{
+    width: 97.5vw;
+    height: 97.5vh;
     display:grid;
     grid-template-areas:
     'header header' 
